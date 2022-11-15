@@ -44,11 +44,9 @@
                         <finalName>Uber</finalName>
                     </configuration>
                 </execution>
-            </executions>
+          </executions>
 			</plugin>
-	<groupId>org.apache.maven.plugins</groupId>
-	<artifactId>maven-resources-plugin</artifactId>
-	<version>3.1.0</version>
+	
 		</plugins>
 	</build>
 
