@@ -20,10 +20,10 @@ pipeline{
                  sh 'mvn test'
     }
 }
-        stage('Integration testing'){
+        stage('clean package'){
             
             steps{
-               sh 'mvn verify -DskipUnitTests'
+               sh 'mvn clean'
             }
 
 }
