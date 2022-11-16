@@ -23,15 +23,10 @@ pipeline{
         stage('Integration testing'){
             
             steps{
-               sh 'mvn clean'
+               sh 'mvn verify -DskipUnitTests'
             }
-}
-        stage('Integration testing1'){
-            
-            steps{
-               sh 'mvn compile'
-            }
+
 }
 }
-}
+
 
