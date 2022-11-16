@@ -13,15 +13,15 @@ pipeline{
                     git branch: 'main', url: 'https://github.com/chanakyaboyini/demo-counter-app.git'
                 }
             }
-        }
+        
             stage('UNIT Testing'){
             
             steps{
                  sh 'mvn test'
     }
 }
-      
-}
+        }
+ 
     stage('Integration testing'){
             
             steps{
@@ -31,7 +31,9 @@ pipeline{
                     sh 'mvn verify -DskipUnitTests'
                 }
             }
-        }
+    }
+    }
 }
+
 
 
