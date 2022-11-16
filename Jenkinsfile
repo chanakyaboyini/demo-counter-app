@@ -26,7 +26,7 @@ pipeline{
                sh 'mvn clean'
             }
 }
-        stage('Integration testing'){
+        stage('Integration testing1'){
             
             steps{
                sh 'mvn compile'
