@@ -13,6 +13,7 @@ pipeline{
                     git branch: 'main', url: 'https://github.com/chanakyaboyini/demo-counter-app.git'
                 }
             }
+        }
         
             stage('UNIT Testing'){
             
@@ -33,7 +34,6 @@ pipeline{
             }
     }
     }
-}
 
 
 
