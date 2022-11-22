@@ -59,18 +59,12 @@
 		
 	
 	</build>
-	
-	<build>
-  <pluginManagement>
-    <plugins>
-      <plugin>
+	<plugin>
         <groupId>org.codehaus.sonar</groupId>
         <artifactId>sonar-maven-plugin</artifactId>
         <version>3.0.2</version>
       </plugin>
-    </plugins>
-  </pluginManagement>
-</build>
+	<build>
 	
 
 </project>
